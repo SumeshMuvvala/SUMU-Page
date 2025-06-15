@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ドキュメント on Blowfish</title>
+    <link>https://localhost:1313/ja/docs/</link>
+    <description>Recent content in ドキュメント on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor>
+    <webMaster>nuno@n9o.xyz (Blowfish)</webMaster>
+    <copyright>© 2025 Blowfish</copyright>
+    <atom:link href="https://localhost:1313/ja/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Blowfish へようこそ</title>
+      <link>https://localhost:1313/ja/docs/welcome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/welcome/</guid>
+      <description>Blowfish にはたくさんの機能が詰まっています。 元々、Blowfish</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/welcome/featured.svg" />
+    </item>
+    
+    <item>
+      <title>インストール</title>
+      <link>https://localhost:1313/ja/docs/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/installation/</guid>
+      <description>Hugo のクイックスタートガイドに従うだけで、簡単に使い始めること</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/installation/featured.svg" />
+    </item>
+    
+    <item>
+      <title>始める</title>
+      <link>https://localhost:1313/ja/docs/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/getting-started/</guid>
+      <description>このセクションでは、Blowfish テーマをすでにインストー</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/getting-started/featured.svg" />
+    </item>
+    
+    <item>
+      <title>設定</title>
+      <link>https://localhost:1313/ja/docs/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/configuration/</guid>
+      <description>Blowfish は高度にカスタマイズ可能なテーマであり、最新の Hugo 機能を使用</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/configuration/featured.svg" />
+    </item>
+    
+    <item>
+      <title>ホームページレイアウト</title>
+      <link>https://localhost:1313/ja/docs/homepage-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/homepage-layout/</guid>
+      <description>Blowfish は完全に柔軟なホームページレイアウトを提供します。2つのメ</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/homepage-layout/featured.svg" />
+    </item>
+    
+    <item>
+      <title>ショートコード</title>
+      <link>https://localhost:1313/ja/docs/shortcodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/shortcodes/</guid>
+      <description>デフォルトの Hugo ショートコードに加えて、Blowfish は機能</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/shortcodes/featured.svg" />
+    </item>
+    
+    <item>
+      <title>フロントマター</title>
+      <link>https://localhost:1313/ja/docs/front-matter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/front-matter/</guid>
+      <description>デフォルトの Hugo フロントマターパラメータに加えて、Blowfi</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/front-matter/featured.svg" />
+    </item>
+    
+    <item>
+      <title>複数の著者</title>
+      <link>https://localhost:1313/ja/docs/multi-author/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/multi-author/</guid>
+      <description>一部のウェブサイトでは、複数の著者がコンテンツを提供している</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/multi-author/featured.svg" />
+    </item>
+    
+    <item>
+      <title>パーシャル</title>
+      <link>https://localhost:1313/ja/docs/partials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/partials/</guid>
+      <description>アナリティクス # Blowfish は、Fathom Analytics、Goo</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/partials/featured.svg" />
+    </item>
+    
+    <item>
+      <title>サムネイル</title>
+      <link>https://localhost:1313/ja/docs/thumbnails/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/thumbnails/</guid>
+      <description>サムネイル # Blowfish は、記事に視覚的な要素を簡単に追加できるように</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/thumbnails/featured.svg" />
+    </item>
+    
+    <item>
+      <title>コンテンツの例</title>
+      <link>https://localhost:1313/ja/docs/content-examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/content-examples/</guid>
+      <description>ドキュメントを順に読んできた方なら、Blowfish で利用可</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/content-examples/featured.svg" />
+    </item>
+    
+    <item>
+      <title>シリーズ</title>
+      <link>https://localhost:1313/ja/docs/series/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/series/</guid>
+      <description>Blowfish は、一連の記事を「シリーズ」でグループ化する機能を提供しま</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/series/featured.svg" />
+    </item>
+    
+    <item>
+      <title>高度なカスタマイズ</title>
+      <link>https://localhost:1313/ja/docs/advanced-customisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/advanced-customisation/</guid>
+      <description>Blowfish には高度な変更を加えるための多くの方法があります。カスタマ</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/advanced-customisation/featured.svg" />
+    </item>
+    
+    <item>
+      <title>ホスティングとデプロイ</title>
+      <link>https://localhost:1313/ja/docs/hosting-deployment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/hosting-deployment/</guid>
+      <description>Blowfish で構築された Hugo ウェブサイトをデプロイする方法はたくさんあり</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/hosting-deployment/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Firebase: 閲覧数といいね</title>
+      <link>https://localhost:1313/ja/docs/firebase-views/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/firebase-views/</guid>
+      <description>ウェブサイト全体で動的データをサポートできるようにするために</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/firebase-views/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

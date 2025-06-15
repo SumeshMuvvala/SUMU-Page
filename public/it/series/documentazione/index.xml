@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentazione on Blowfish</title>
+    <link>https://localhost:1313/it/series/documentazione/</link>
+    <description>Recent content in Documentazione on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <copyright>© 2025 Blowfish</copyright>
+    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://localhost:1313/it/series/documentazione/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Benvenuti a Blowfish</title>
+      <link>https://localhost:1313/it/docs/welcome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/it/docs/welcome/</guid>
+      <description>Blowfish è ricco di tantissime funzionalità. Lo scopo originale di Blowfish era quello di sviluppare un tema semplice e leggero. Il tema è un fork del Congo e ne espande la visione iniziale.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/welcome/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Installazione</title>
+      <link>https://localhost:1313/it/docs/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/it/docs/installation/</guid>
+      <description>Segui semplicemente la procedura standard Avvio Rapido di Hugo per iniziare subito.
+Sono riportate le istruzioni dettagliate per l&amp;rsquo;installazione. Sono disponibili anche le istruzioni per aggiornare il tema.
+Installazione # Queste istruzioni ti consentiranno di iniziare a utilizzare Hugo e Blowfish partendo da uno stato completamente vuoto.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/installation/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Per iniziare</title>
+      <link>https://localhost:1313/it/docs/per-iniziare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/it/docs/per-iniziare/</guid>
+      <description>Questa sezione presuppone che tu abbia già installato il tema Blowfish. Abbiamo appena lanciato uno strumento CLI per aiutarvi a iniziare con Blowfish. Vi aiuterà con l&amp;rsquo;installazione e la configurazione.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/getting-started/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Configurazione</title>
+      <link>https://localhost:1313/it/docs/configurazioni/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/it/docs/configurazioni/</guid>
+      <description>Blowfish è un tema altamente personalizzabile e utilizza alcune delle più recenti funzionalità di Hugo per semplificarne la configurazione.
+Il tema viene fornito con una configurazione predefinita che ti consente di essere operativo con un blog di base o un sito Web statico.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/configuration/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Homepage Layout</title>
+      <link>https://localhost:1313/it/docs/homepage-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/it/docs/homepage-layout/</guid>
+      <description>Blowfish fornisce un layout della home page completamente flessibile. Sono disponibili due modelli principali tra cui scegliere con impostazioni aggiuntive per adattare il design. In alternativa, puoi anche fornire il tuo modello e avere il controllo completo sul contenuto della home page.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/homepage-layout/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Front Matter</title>
+      <link>https://localhost:1313/it/docs/front-matter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/it/docs/front-matter/</guid>
+      <description>Oltre ai parametri predefiniti della parte frontale di Hugo, Blowfish aggiunge una serie di opzioni aggiuntive per personalizzare la presentazione dei singoli articoli . Tutti i parametri disponibili per la parte frontale del tema sono elencati di seguito.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/front-matter/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

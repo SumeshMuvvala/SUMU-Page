@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Config on Blowfish</title>
+    <link>https://localhost:1313/ja/tags/config/</link>
+    <description>Recent content in Config on Blowfish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor>
+    <webMaster>nuno@n9o.xyz (Blowfish)</webMaster>
+    <copyright>© 2025 Blowfish</copyright>
+    <atom:link href="https://localhost:1313/ja/tags/config/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>設定</title>
+      <link>https://localhost:1313/ja/docs/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/configuration/</guid>
+      <description>Blowfish は高度にカスタマイズ可能なテーマであり、最新の Hugo 機能を使用</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/configuration/featured.svg" />
+    </item>
+    
+    <item>
+      <title>フロントマター</title>
+      <link>https://localhost:1313/ja/docs/front-matter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/front-matter/</guid>
+      <description>デフォルトの Hugo フロントマターパラメータに加えて、Blowfi</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/front-matter/featured.svg" />
+    </item>
+    
+    <item>
+      <title>複数の著者</title>
+      <link>https://localhost:1313/ja/docs/multi-author/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/multi-author/</guid>
+      <description>一部のウェブサイトでは、複数の著者がコンテンツを提供している</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/multi-author/featured.svg" />
+    </item>
+    
+    <item>
+      <title>サムネイル</title>
+      <link>https://localhost:1313/ja/docs/thumbnails/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>https://localhost:1313/ja/docs/thumbnails/</guid>
+      <description>サムネイル # Blowfish は、記事に視覚的な要素を簡単に追加できるように</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/thumbnails/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>
