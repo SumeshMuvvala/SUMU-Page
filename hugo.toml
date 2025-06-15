@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://sumeshmuvvala.github.io/SUMU-Page/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'SUMU'
 
 # Blowfish theme setup
 theme = "blowfish"
