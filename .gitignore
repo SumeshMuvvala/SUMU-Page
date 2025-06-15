@@ -1,0 +1,15 @@
+# Hugo build artifacts
+/public/
+/resources/_gen/
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Theme git submodules metadata (already tracked)
+/themes/blowfish/.git/
+
+# Node or yarn cache (in case)
+node_modules/
