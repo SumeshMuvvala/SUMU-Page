@@ -1,0 +1,93 @@
+{{ define "head_extra" }}
+  <link rel="stylesheet" href="/css/site.css" />
+  <script src="/js/site.js" defer></script>
+{{ end }}
+
+{{ define "main" }}
+<!-- Sticky Navigation -->
+<nav id="site-nav" class="shadow-md fixed top-0 w-full bg-white z-50">
+  <div class="container mx-auto flex justify-between items-center p-4">
+    <span class="font-bold text-xl">SUMU</span>
+    <button id="nav-toggle" class="md:hidden text-3xl">☰</button>
+    <ul id="nav-menu" class="hidden md:flex space-x-6 text-md font-medium">
+      <li><a href="#hero" class="scroll-link">Home</a></li>
+      <li><a href="#about" class="scroll-link">About</a></li>
+      <li><a href="#services" class="scroll-link">Services</a></li>
+      <li><a href="#testimonials" class="scroll-link">Testimonials</a></li>
+      <li><a href="#mindmap" class="scroll-link">Journey</a></li>
+      <li><a href="#contact" class="scroll-link">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero" class="section-box flex flex-col md:flex-row items-center justify-center text-center md:text-left pt-32 pb-16">
+  <img src="/images/avatar.png" alt="Sumesh avatar" class="w-48 h-48 rounded-full shadow-lg mb-6 md:mb-0 md:mr-10" />
+  <div>
+    <h1 class="text-4xl font-extrabold mb-4">Build. Automate. Grow.<br>Your Business Starts Here.</h1>
+    <p class="text-lg mb-6 max-w-xl">Automation and digital growth for small businesses and entrepreneurs.</p>
+    <a href="#contact" class="cta-button">Get Your Free Growth Audit</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section-box">
+  <p class="text-lg leading-relaxed">I’m <strong>Sumesh Muvvala</strong>, your approachable AI and automation consultant. I help business owners and entrepreneurs build, automate, and scale—with modern, practical digital solutions. My promise: clear strategy, simple solutions, real results, anywhere in the world.</p>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section-box grid md:grid-cols-2 gap-6">
+  <div class="card">
+    <h3>Social Presence Consulting</h3>
+    <p>Your story, everywhere it matters. Branding, post planning, and online trust—growth without jargon.</p>
+  </div>
+  <div class="card">
+    <h3>Funnel & Promotion Automation</h3>
+    <p>Automated lead capture and follow-ups. Turn browsers into buyers, all tailored for your business.</p>
+  </div>
+  <div class="card">
+    <h3>Marketing Growth Systems</h3>
+    <p>Digital marketing made simple—ads, reviews, campaigns that bring results, not headaches.</p>
+  </div>
+  <div class="card">
+    <h3>Business Process Automation</h3>
+    <p>Reminders, support, tracking, and reporting—let automation do the heavy lifting.</p>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="section-box">
+  {{ partial "testimonials.html" . }}
+</section>
+
+<!-- MIND MAP -->
+<section id="mindmap" class="section-box">
+  <h2 class="text-2xl font-bold mb-4">Your Business Growth Journey</h2>
+  <div id="mindmap-container" class="border rounded-lg p-4"></div>
+</section>
+
+<!-- NEWSLETTER -->
+<section id="newsletter" class="section-box text-center">
+  <p class="mb-4 text-lg">Subscribe for automation tips, growth hacks, and success stories. No spam—just value.</p>
+  <form action="https://form.jotform.com/your-form-id" method="POST" class="flex flex-col md:flex-row justify-center gap-4">
+    <input type="email" name="email" placeholder="Your email address" required class="input-field" />
+    <button type="submit" class="cta-button">Subscribe</button>
+  </form>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section-box">
+  <h2 class="text-2xl font-bold mb-4">Let’s work together</h2>
+  <form action="https://form.jotform.com/your-form-id" method="POST" class="grid gap-4">
+    <input type="text" name="name" placeholder="Your name" required class="input-field" />
+    <input type="email" name="email" placeholder="Your email" required class="input-field" />
+    <textarea name="message" placeholder="How can I help you?" required class="input-field h-32"></textarea>
+    <button type="submit" class="cta-button">Send Message</button>
+  </form>
+  <div class="my-8">
+    <iframe src="https://calendly.com/sumu/consult" width="100%" height="600" frameborder="0"></iframe>
+  </div>
+  <p>Email: <a href="mailto:sumu@sumeshmuvvala.com" class="text-primary-500">sumu@sumeshmuvvala.com</a></p>
+</section>
+
+{{ end }}
