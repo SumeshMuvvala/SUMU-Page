@@ -24,4 +24,21 @@ document.addEventListener('DOMContentLoaded', () => {
       navMenu.classList.remove('show');
     });
   });
+
+  // Active section link highlight
+  const sections = document.querySelectorAll('section[id]');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const id = entry.target.getAttribute('id');
+      const link = document.querySelector(`#site-nav a[href="#${id}"]`);
+      if (link) {
+        if (entry.isIntersecting) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      }
+    });
+  }, { threshold: 0.6 });
+  sections.forEach(s => observer.observe(s));
 });
