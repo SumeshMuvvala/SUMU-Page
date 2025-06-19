@@ -1,4 +1,8 @@
-/******** Core Layout ********/ 
+/******** Core Layout ********/
+/* Hide Blowfish default header */
+header.site-header, .header, .site-header__wrapper, .site-header__inner { display:none !important; }
+
+ 
 body { font-family: "Inter", "Lato", sans-serif; }
 .section-box { max-width: 1000px; margin: 0 auto 4rem auto; padding: 4rem 1rem; background: #fff; border-radius: 1rem; box-shadow: 0 4px 20px #0002; }
 
