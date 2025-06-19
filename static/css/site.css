@@ -20,6 +20,7 @@ body { font-family: "Inter", "Lato", sans-serif; }
 #site-nav a.active { color: #2364AA; }
 #site-nav {
   padding: .5rem 1rem;
+  -webkit-backdrop-filter: blur(10px); /* Safari/iOS support */
   backdrop-filter: blur(10px);
   background: rgba(255,255,255,.9);
   transition: background .25s;
