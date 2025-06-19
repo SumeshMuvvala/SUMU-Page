@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang | default "en" }}" class="scroll-smooth">
+  {{ partial "head.html" . }}
+  <body class="font-sans antialiased bg-white text-neutral-900">
+    {{ block "main" . }}{{ end }}
+  </body>
+</html>
