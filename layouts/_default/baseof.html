@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang | default "en" }}" class="scroll-smooth">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ .Site.Title | default "SUMU – Automation & Growth" }}</title>
-    {{ partial "head.html" . }}
+    {{ block "head_extra" . }}{{ end }}
   </head>
   <body class="font-sans antialiased bg-white text-neutral-900">
     {{ block "main" . }}{{ end }}
