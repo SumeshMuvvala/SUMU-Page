@@ -45,7 +45,49 @@ body { font-family: "Inter", "Lato", sans-serif; }
 .input-field { padding: 0.8rem; border: 1px solid #cfd8dc; border-radius: 0.75rem; width: 100%; }
 
 /******** Cards ********/
-.card { background: #fafafa; border-radius: 1rem; padding: 2rem; box-shadow: 0 4px 16px #0001; }
+.card {
+  background: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 8px 32px rgba(35, 100, 170, 0.10);
+  padding: 2.5rem;
+  margin: 3rem auto 2.5rem auto;
+  max-width: 800px;
+}
+
+/* Contact Section */
+.contact-section-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  border-radius: 8px;
+  border: 1.5px solid #cfd8dc;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  transition: border .2s;
+}
+.contact-form input:focus, .contact-form textarea:focus {
+  border-color: #2364AA;
+  outline: none;
+}
+.contact-form textarea { height: 120px; }
+.contact-form button { width: 100%; }
+.contact-side { flex: 1; min-width: 320px; }
+.calendly-iframe {
+  border-radius: 1.4rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,.06);
+  width: 100%;
+  max-width: 400px;
+  height: 360px;
+  margin-bottom: 1.1rem;
+}
+@media (max-width: 900px) {
+  .contact-section-inner { flex-direction: column; }
+  .contact-side, .contact-form { min-width: unset; }
+}
 
 .testimonials { display:flex; gap:2rem; justify-content:center; flex-wrap:wrap; }
 .testimonial-card { background:#fff; border-radius:16px; box-shadow:0 4px 16px #0001; padding:2rem; max-width:300px; text-align:center; }
