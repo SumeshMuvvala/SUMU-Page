@@ -54,6 +54,13 @@ body { font-family: "Inter", "Lato", sans-serif; }
   max-width: 800px;
 }
 
+/* Calendly widget */
+.calendly-widget {
+  width: 100%;
+  min-width: 320px;
+  height: 700px;
+}
+
 /* Contact Section */
 .contact-section-inner {
   display: flex;
