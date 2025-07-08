@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Smooth scroll for anchor links
-  document.querySelectorAll('a.scroll-link').forEach(link => {
+  // Smooth scroll for anchor links (any nav anchor)
+  document.querySelectorAll('nav .nav-links a').forEach(link => {
     link.addEventListener('click', e => {
       e.preventDefault();
       const target = document.querySelector(link.getAttribute('href'));
@@ -41,4 +41,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, { threshold: 0.6 });
   sections.forEach(s => observer.observe(s));
+
+  // Fade-in testimonials when they enter viewport
+  const testimonialCards = document.querySelectorAll('.testimonial-card');
+  const cardObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        cardObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+  testimonialCards.forEach(card => cardObserver.observe(card));
 });
