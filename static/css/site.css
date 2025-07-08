@@ -9,6 +9,9 @@ header.site-header, .header, .site-header__wrapper, .site-header__inner { displa
  
 body { font-family: "Inter", "Lato", sans-serif; }
 
+/* Ensure section headings aren’t hidden under sticky nav on scroll */
+section[id] { scroll-margin-top: 90px; }
+
 /* Consistent section spacing */
 .section-box { margin-top: 4rem; margin-bottom: 4rem; padding-top: 4rem; padding-bottom: 4rem; }
 
