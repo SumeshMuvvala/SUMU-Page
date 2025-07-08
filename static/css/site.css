@@ -102,3 +102,56 @@ body { font-family: "Inter", "Lato", sans-serif; }
   border-radius: 1rem;
   min-height: 260px;
 }
+
+/******** Navigation (restored) ********/
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: rgba(255,255,255,0.98);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 1.2rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+}
+nav .logo {
+  font-size: 1.4rem;
+  color: #2364AA;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+nav .nav-links a {
+  margin: 0 1.1rem;
+  color: #2364AA;
+  text-decoration: none;
+  font-size: 1.07rem;
+  font-weight: 600;
+  transition: color 0.16s ease;
+}
+nav .nav-links a:hover {
+  color: #17426E;
+}
+
+/******** Primary Button ********/
+.btn-primary {
+  background: linear-gradient(to right,#2364AA,#17426E);
+  color: #fff;
+  padding: 1rem 2.5rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(35,100,170,0.2);
+  transition: background 0.2s ease, transform 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn-primary:hover {
+  background: linear-gradient(to right,#17426E,#2364AA);
+  transform: scale(1.03);
+}
+
