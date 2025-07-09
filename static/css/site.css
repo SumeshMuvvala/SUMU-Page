@@ -64,6 +64,21 @@ section[id] { scroll-margin-top: 90px; }
   height: 700px;
 }
 
+/* Newsletter Form */
+.newsletter-form { display: flex; gap: 1rem; flex-wrap: wrap; }
+.newsletter-form input[type="email"] {
+  flex: 0 0 220px;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  border: 1.5px solid #cfd8dc;
+  border-radius: 0.75rem;
+}
+.newsletter-form button {
+  flex: 1 1 auto;
+  padding: 1rem 1.75rem;
+  font-size: 1rem;
+}
+
 /* Contact Section */
 .contact-section-inner {
   display: flex;
