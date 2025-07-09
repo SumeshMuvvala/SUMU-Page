@@ -65,7 +65,8 @@ section[id] { scroll-margin-top: 90px; }
 }
 
 /* Newsletter Form */
-.newsletter-form { display: flex; gap: 1rem; flex-wrap: wrap; }
+.newsletter-form { display:flex; flex-direction: column; gap: 1rem; }
+
 .newsletter-form input[type="email"] {
   flex: 0 0 220px;
   padding: 1rem 1.25rem;
