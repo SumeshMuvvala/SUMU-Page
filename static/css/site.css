@@ -150,7 +150,10 @@ section[id] { scroll-margin-top: 90px; }
   transform: translateY(0);
 }
 .testimonial-card { background:#fff; border-radius:16px; box-shadow:0 4px 16px #0001; padding:2rem; max-width:300px; text-align:center; }
-.testimonial-card img { border-radius:50%; width:80px; margin-bottom:1rem; }
+
+/* Hero Logo */
+.hero-logo { width:140px; height:auto; margin-bottom:1.5rem; display:block; margin-left:auto; margin-right:auto; }
+
 
 /******** Mobile Nav Toggle ********/
 #nav-menu.show { display:flex !important; flex-direction:column; gap:1.5rem; }
