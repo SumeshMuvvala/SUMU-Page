@@ -154,6 +154,7 @@ section[id] { scroll-margin-top: 90px; }
 
 /* Hero Logo */
 .hero-logo { width:140px; height:auto; margin-bottom:1.5rem; display:block; margin-left:auto; margin-right:auto; }
+.round-logo { border-radius:50%; object-fit:cover; }
 
 
 /******** Mobile Nav Toggle ********/
