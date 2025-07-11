@@ -159,6 +159,13 @@ section[id] { scroll-margin-top: 90px; }
 /******** Mobile Nav Toggle ********/
 #nav-menu.show { display:flex !important; flex-direction:column; gap:1.5rem; }
 
+/* Footer */
+.footer { text-align:center; padding:2.5rem 0; margin-top:4rem; }
+.footer .social-links { display:flex; justify-content:center; gap:1.5rem; margin-bottom:1rem; }
+.footer .social-links a svg { width:28px; height:28px; fill:#2364AA; transition:fill .2s; }
+.footer .social-links a:hover svg { fill:#17426E; }
+.footer .copyright { color:#2364AA; font-weight:600; }
+
 /* Mind Map Image */
 .mindmap-img {
   width: 100%;
