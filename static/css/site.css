@@ -137,6 +137,20 @@ section[id] { scroll-margin-top: 90px; }
   justify-items: center;
 }
 @media (max-width: 600px) {
+  /* Testimonials turn into horizontal swipe */
+  .testimonials-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: var(--space-3);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: var(--space-2);
+  }
+  .testimonial-card {
+    min-width: 260px;
+    scroll-snap-align: center;
+  }
+
   /* Stack cards on small screens */
   .testimonials-grid {
     display: flex;
@@ -183,6 +197,18 @@ input:focus, textarea:focus {
 button:focus, a.btn-primary:focus {
   outline: 2px solid var(--secondary);
   outline-offset: 2px;
+}
+
+/* Hero section */
+.hero-section {
+  background: linear-gradient(135deg, #e8f1fc 0%, #ffffff 100%);
+}
+.hero-logo {
+  animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
 }
 
 /* Hero Logo */
