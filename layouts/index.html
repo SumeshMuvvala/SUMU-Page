@@ -28,7 +28,7 @@
     <img src="/images/sumu-logo.jpg" alt="Sumesh Muvvala" class="hero-logo round-logo" />
     <h1>Build. Automate. Grow.<br />Your Business Starts Here.</h1>
     <p>Automation and digital growth for small businesses and entrepreneurs.</p>
-    <a class="scroll-link" href="#contact" class="btn-primary">Get Your Free Growth Audit</a>
+    <a class="scroll-link btn-primary" href="#contact">Show Me My Growth Audit</a>
   </section>
 
   <!-- ABOUT -->
@@ -44,6 +44,7 @@
   <!-- SERVICES -->
   <section id="services" class="card">
     <h2>Services</h2>
+    <p class="section-sub">Practical solutions that save you time and grow revenue.</p>
     <div class="services-grid">
       <div class="service-card">
         <h3>🔗 Social Presence Consulting</h3>
@@ -67,6 +68,7 @@
   <!-- TESTIMONIALS -->
   <section id="testimonials" class="card">
     <h2>Testimonials</h2>
+    <p class="section-sub">Real entrepreneurs, real wins after automating.</p>
     <div class="testimonials-grid">
       <div class="testimonial-card">
         <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Maria, Bakery Owner, Spain" class="testimonial-avatar" />
@@ -92,8 +94,10 @@
   <!-- NEWSLETTER -->
   <section id="newsletter" class="card">
     <h2>Newsletter Signup</h2>
+    <p class="section-sub">Monthly tips on automating and scaling—no spam.</p>
     <form name="newsletter" method="POST" data-netlify="true" class="newsletter-form">
-      <input type="email" name="email" placeholder="Your email address" required />
+      <label for="newsletter-email">Email</label>
+      <input id="newsletter-email" type="email" name="email" placeholder="Your email address" required />
       <button type="submit" class="btn-primary">Subscribe</button>
       <input type="hidden" name="to" value="Sumu@sumeshmuvvala.com" />
     </form>
@@ -105,11 +109,15 @@
   <!-- CONTACT -->
   <section id="contact" class="card contact-section">
     <h2>Let's Work Together</h2>
+    <p class="section-sub">Tell me your challenge; I'll reply within 24 hours.</p>
     <div class="contact-section-inner">
       <form name="contact" method="POST" action="/success" data-netlify="true" class="contact-form">
-        <input type="text" name="name" placeholder="Your name" required />
-        <input type="email" name="email" placeholder="Your email" required />
-        <textarea name="message" placeholder="How can I help you?" required></textarea>
+        <label for="contact-name">Name</label>
+        <input id="contact-name" type="text" name="name" placeholder="Your name" required />
+        <label for="contact-email">Email</label>
+        <input id="contact-email" type="email" name="email" placeholder="Your email" required />
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" name="message" placeholder="How can I help you?" required></textarea>
         <button class="btn-primary" type="submit">Send Message</button>
         <input type="hidden" name="to" value="Sumu@sumeshmuvvala.com" />
       </form>
