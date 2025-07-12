@@ -59,6 +59,9 @@ section[id] { scroll-margin-top: 90px; }
 /******** Inputs ********/
 .input-field { padding: 0.8rem; border: 1px solid #cfd8dc; border-radius: 0.75rem; width: 100%; }
 
+/******** Global Section Spacing */
+.card + .card { margin-top: var(--space-5); }
+
 /******** Cards ********/
 .card {
   background: #fff;
@@ -201,6 +204,11 @@ button:focus, a.btn-primary:focus {
 
 /* Hero section */
 .hero-section {
+  min-height: 100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
   background: linear-gradient(135deg, #e8f1fc 0%, #ffffff 100%);
 }
 .hero-logo {
