@@ -1,4 +1,16 @@
 /******** Core Layout ********/
+:root {
+  --primary: #2364AA;
+  --primary-dark: #17426E;
+  --secondary: #FF9A27;
+  --neutral: #616161;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 32px;
+  --space-5: 64px;
+}
+
 /* Hide Blowfish default header */
 
 /* Consistent heading spacing */
@@ -7,7 +19,7 @@
 header.site-header, .header, .site-header__wrapper, .site-header__inner { display:none !important; }
 
  
-body { font-family: "Inter", "Lato", sans-serif; }
+body { font-family: "Inter", "Lato", sans-serif; color: var(--neutral); }
 
 /* Ensure section headings aren’t hidden under sticky nav on scroll */
 section[id] { scroll-margin-top: 90px; }
@@ -50,8 +62,8 @@ section[id] { scroll-margin-top: 90px; }
 /******** Cards ********/
 .card {
   background: #fff;
-  border-radius: 2rem;
-  box-shadow: 0 8px 32px rgba(35, 100, 170, 0.10);
+  border-radius: 1rem; /* softer 16px */
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
   padding: 2.5rem;
   margin: 3rem auto 2.5rem auto;
   max-width: 800px;
@@ -152,6 +164,16 @@ section[id] { scroll-margin-top: 90px; }
 }
 .testimonial-card { background:#fff; border-radius:16px; box-shadow:0 4px 16px #0001; padding:2rem; max-width:300px; text-align:center; }
 
+/* Section sub-heading */
+.section-sub {
+  max-width: 680px;
+  margin: var(--space-2) auto var(--space-4);
+  font-size: 1.125rem;
+  color: var(--neutral);
+  line-height: 1.6;
+  text-align: center;
+}
+
 /* Hero Logo */
 .hero-logo { width:140px; height:auto; margin-bottom:1.5rem; display:block; margin-left:auto; margin-right:auto; }
 .round-logo { border-radius:50%; object-fit:cover; }
@@ -207,16 +229,16 @@ nav .nav-links a:hover {
 
 /******** Primary Button ********/
 .btn-primary {
-  background: linear-gradient(to right,#2364AA,#17426E);
+  background: linear-gradient(to right,var(--primary),var(--primary-dark));
   color: #fff;
   padding: 1rem 2.5rem;
-  border-radius: 10px;
+  border-radius: 8px;
   border: none;
   font-size: 1.15rem;
   font-weight: 700;
   margin-top: 2rem;
   cursor: pointer;
-  box-shadow: 0 2px 8px rgba(35,100,170,0.2);
+  box-shadow: 0 2px 6px rgba(35,100,170,0.25);
   transition: background 0.2s ease, transform 0.2s ease;
   text-decoration: none;
   display: inline-block;
