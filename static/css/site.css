@@ -233,6 +233,8 @@ button:focus, a.btn-primary:focus {
 
 /* Footer */
 
+.skip-link{position:absolute;top:-40px;left:0;background:#fff;color:var(--primary);padding:8px 12px;border-radius:0 0 4px 4px;z-index:1000;transition:top .2s}.skip-link:focus{top:0}
+
 /* Featured In */
 .featured-in { padding: var(--space-4) 0; background: #f8f9fa; text-align:center; }
 .featured-wrap { display:flex; flex-wrap:wrap; gap: var(--space-3); justify-content:center; align-items:center; }
