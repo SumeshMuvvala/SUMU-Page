@@ -2,7 +2,7 @@
 :root {
   --primary: #2364AA;
   --primary-dark: #17426E;
-  --secondary: #FF9A27;
+  --secondary: #E67E22;
   --neutral: #616161;
   --space-1: 4px;
   --space-2: 8px;
@@ -172,6 +172,17 @@ section[id] { scroll-margin-top: 90px; }
   color: var(--neutral);
   line-height: 1.6;
   text-align: center;
+}
+
+/* Focus & Accessibility */
+input:focus, textarea:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(35,100,170,0.2);
+  outline: none;
+}
+button:focus, a.btn-primary:focus {
+  outline: 2px solid var(--secondary);
+  outline-offset: 2px;
 }
 
 /* Hero Logo */

@@ -53,4 +53,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, { threshold: 0.2 });
   testimonialCards.forEach(card => cardObserver.observe(card));
+
+  // Submit-state feedback for forms
+  document.querySelectorAll('form').forEach(f => {
+    f.addEventListener('submit', () => {
+      const btn = f.querySelector('button[type="submit"]');
+      if (btn) {
+        btn.disabled = true;
+        btn.textContent = 'Sending…';
+        btn.style.opacity = '0.7';
+      }
+    });
+  });
 });
