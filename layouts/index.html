@@ -11,7 +11,7 @@
 </head>
 <body>
   <!-- NAV -->
-  <nav>
+  <nav role="navigation" aria-label="Main navigation">
     <span class="logo">Sumesh Muvvala</span>
     <div class="nav-links">
       <a class="scroll-link" href="#hero">Home</a>
@@ -24,16 +24,16 @@
   </nav>
 
   <!-- HERO -->
-  <section id="hero" class="card hero-section">
+  <section id="hero" aria-labelledby="hero-heading" class="card hero-section">
     <img src="/images/sumu-logo.jpg" alt="Sumesh Muvvala" class="hero-logo round-logo" />
-    <h1>Build. Automate. Grow.<br />Your Business Starts Here.</h1>
+    <h1 id="hero-heading">Build. Automate. Grow.<br />Your Business Starts Here.</h1>
     <p>Automation and digital growth for small businesses and entrepreneurs.</p>
     <a class="scroll-link btn-primary" href="#contact">Show Me My Growth Audit</a>
   </section>
 
   <!-- ABOUT -->
-  <section id="about" class="card about-section">
-    <h2>About Sumesh</h2>
+  <section id="about" aria-labelledby="about-heading" class="card about-section">
+    <h2 id="about-heading">About Sumesh</h2>
     <p>
       <strong>I'm Sumesh Muvvala,</strong> your approachable AI and automation consultant. I help business owners and
       entrepreneurs build, automate, and scale—with modern, practical digital solutions. My promise: clear strategy,
@@ -42,8 +42,8 @@
   </section>
 
   <!-- SERVICES -->
-  <section id="services" class="card">
-    <h2>Services</h2>
+  <section id="services" aria-labelledby="services-heading" class="card">
+    <h2 id="services-heading">Services</h2>
     <p class="section-sub">Practical solutions that save you time and grow revenue.</p>
     <div class="services-grid">
       <div class="service-card">
@@ -66,7 +66,7 @@
   </section>
 
   <!-- FEATURED IN -->
-  <section class="featured-in">
+  <section class="featured-in" aria-label="Featured logos">>
     <div class="featured-wrap">
       <span>As featured in</span>
       <img src="/images/logo1.svg" alt="Logo 1" />
@@ -76,8 +76,8 @@
   </section>
 
   <!-- TESTIMONIALS -->
-  <section id="testimonials" class="card">
-    <h2>Testimonials</h2>
+  <section id="testimonials" aria-labelledby="testimonials-heading" class="card">
+    <h2 id="testimonials-heading">Testimonials</h2>
     <p class="section-sub">Real entrepreneurs, real wins after automating.</p>
     <div class="testimonials-grid">
       <div class="testimonial-card">
@@ -102,8 +102,8 @@
   </section>
 
   <!-- NEWSLETTER -->
-  <section id="newsletter" class="card">
-    <h2>Newsletter Signup</h2>
+  <section id="newsletter" aria-labelledby="newsletter-heading" class="card">
+    <h2 id="newsletter-heading">Newsletter Signup</h2>
     <p class="section-sub">Monthly tips on automating and scaling—no spam.</p>
     <form name="newsletter" method="POST" data-netlify="true" class="newsletter-form">
       <label for="newsletter-email">Email</label>
@@ -117,8 +117,8 @@
   </section>
 
   <!-- CONTACT -->
-  <section id="contact" class="card contact-section">
-    <h2>Let's Work Together</h2>
+  <section id="contact" aria-labelledby="contact-heading" class="card contact-section">
+    <h2 id="contact-heading">Let's Work Together</h2>
     <p class="section-sub">Tell me your challenge; I'll reply within 24 hours.</p>
     <div class="contact-section-inner">
       <form name="contact" method="POST" action="/success" data-netlify="true" class="contact-form">
@@ -143,7 +143,7 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="footer">
+  <footer class="footer" role="contentinfo">
     <div class="social-links">
       <a href="https://www.linkedin.com/in/sumeshmuvvala" target="_blank" aria-label="LinkedIn" rel="noopener">
         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
